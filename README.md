@@ -30,17 +30,21 @@ Interact dynamically with your mouse or touch to explore the visual effects! Mov
    ```
 
 ## 📂 Project Structure
-```text
-horizon/
-├── .vercel/
-├── dist/
-│   └── assets/
-├── public/
-└── src/
-    ├── assets/
-    ├── components/
-    └── slides/
-```
+
+- 📁 **.vercel/**
+- 📁 **dist/**
+- 📁 **public/**
+- 📁 **src/**
+- 📄 `.gitignore`
+- 📄 `eslint.config.js`
+- 📄 `index.html`
+- 📄 `package-lock.json`
+- 📄 `package.json`
+- 📄 `README.md`
+- 📄 `tsconfig.app.json`
+- 📄 `tsconfig.json`
+- 📄 `tsconfig.node.json`
+- 📄 `vite.config.ts`
 
 ## 💻 Tech Stack
 HTML5 & CSS3: Structural vectors and custom styling variables.
