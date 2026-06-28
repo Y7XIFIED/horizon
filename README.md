@@ -32,39 +32,10 @@ Interact dynamically with your mouse or touch to explore the visual effects! Mov
 ## 📂 Project Structure
 ```text
 horizon/
-├── .vercel
-│   ├── project.json
-│   └── README.txt
-├── dist
-│   ├── assets
-│   │   ├── index-BjBeYEfq.css
-│   │   └── index-COi9Rn7S.js
-│   ├── favicon.svg
-│   ├── icons.svg
-│   └── index.html
-├── public
-│   ├── favicon.svg
-│   └── icons.svg
-├── src
-│   ├── assets
-│   │   ├── hero.png
-│   │   └── vite.svg
-│   ├── components
-│   │   ├── DeckBrand.tsx
-│   │   ├── HlsVideoBackground.tsx
-│   │   └── Presentation.tsx
-│   ├── scripts
-│   ├── slides
-│   │   ├── AnalyticsSlide.tsx
-│   │   ├── CoverSlide.tsx
-│   │   ├── IntroSlide.tsx
-│   │   ├── OutroSlide.tsx
-│   │   └── QuoteSlide.tsx
-│   ├── styles
-│   ├── App.css
-│   ├── App.tsx
-│   ├── index.css
-│   └── main.tsx
+├── .vercel/
+├── dist/
+├── public/
+├── src/
 ├── .gitignore
 ├── eslint.config.js
 ├── index.html
