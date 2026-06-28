@@ -1,9 +1,85 @@
-﻿<h3 align="center"><b>HORIZON</b></h3>
+<h3 align="center"><b>HORIZON</b></h3>
 <p align="center"><img src="https://skillicons.dev/icons?i=html,css,js,react,vite,tailwind" /></p>
 
 Welcome to **horizon**! This is a fun and engaging project built to provide an amazing experience!
 
 ## 🚀 Live Website
 Experience the fully interactive website live here: https://horizon-eight-neon.vercel.app
+
+## 🎮 How to Control
+Interact dynamically with your mouse or touch to explore the visual effects! Move your cursor around the screen or tap anywhere on mobile devices to trigger smooth animations and interactions.
+
+## ⚙️ Installation
+**Prerequisites**
+- Node.js (v18.0.0 or higher recommended)
+- npm (v9.0.0 or higher)
+
+**Setup Instructions**
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Y7XIFIED/horizon.git
+   cd horizon
+   ```
+2. Install the package dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+## 📂 Project Structure
+```text
+horizon/
+├── .gitignore
+├── .vercel
+│   ├── project.json
+│   └── README.txt
+├── dist
+│   ├── assets
+│   │   ├── index-BjBeYEfq.css
+│   │   └── index-COi9Rn7S.js
+│   ├── favicon.svg
+│   ├── icons.svg
+│   └── index.html
+├── eslint.config.js
+├── index.html
+├── package-lock.json
+├── package.json
+├── public
+│   ├── favicon.svg
+│   └── icons.svg
+├── README.md
+├── src
+│   ├── App.css
+│   ├── App.tsx
+│   ├── assets
+│   │   ├── hero.png
+│   │   ├── react.svg
+│   │   └── vite.svg
+│   ├── components
+│   │   ├── DeckBrand.tsx
+│   │   ├── HlsVideoBackground.tsx
+│   │   └── Presentation.tsx
+│   ├── index.css
+│   ├── main.tsx
+│   └── slides
+│       ├── AnalyticsSlide.tsx
+│       ├── CoverSlide.tsx
+│       ├── IntroSlide.tsx
+│       ├── OutroSlide.tsx
+│       └── QuoteSlide.tsx
+├── tsconfig.app.json
+├── tsconfig.json
+├── tsconfig.node.json
+└── vite.config.ts
+```
+
+## 💻 Tech Stack
+HTML5 & CSS3: Structural vectors and custom styling variables.
+JavaScript (ES6): Core logic and interactions.
+Vite: Next-generation frontend project bundler.
+React: Frontend library for building user interfaces.
 
 <div align="center"><p>Y7XIFIED</p></div>
