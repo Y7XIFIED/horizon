@@ -30,21 +30,52 @@ Interact dynamically with your mouse or touch to explore the visual effects! Mov
    ```
 
 ## 📂 Project Structure
-
-- 📁 **.vercel/**
-- 📁 **dist/**
-- 📁 **public/**
-- 📁 **src/**
-- 📄 `.gitignore`
-- 📄 `eslint.config.js`
-- 📄 `index.html`
-- 📄 `package-lock.json`
-- 📄 `package.json`
-- 📄 `README.md`
-- 📄 `tsconfig.app.json`
-- 📄 `tsconfig.json`
-- 📄 `tsconfig.node.json`
-- 📄 `vite.config.ts`
+```text
+horizon/
+├── .vercel
+│   ├── project.json
+│   └── README.txt
+├── dist
+│   ├── assets
+│   │   ├── index-BjBeYEfq.css
+│   │   └── index-COi9Rn7S.js
+│   ├── favicon.svg
+│   ├── icons.svg
+│   └── index.html
+├── public
+│   ├── favicon.svg
+│   └── icons.svg
+├── src
+│   ├── assets
+│   │   ├── hero.png
+│   │   └── vite.svg
+│   ├── components
+│   │   ├── DeckBrand.tsx
+│   │   ├── HlsVideoBackground.tsx
+│   │   └── Presentation.tsx
+│   ├── scripts
+│   ├── slides
+│   │   ├── AnalyticsSlide.tsx
+│   │   ├── CoverSlide.tsx
+│   │   ├── IntroSlide.tsx
+│   │   ├── OutroSlide.tsx
+│   │   └── QuoteSlide.tsx
+│   ├── styles
+│   ├── App.css
+│   ├── App.tsx
+│   ├── index.css
+│   └── main.tsx
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package-lock.json
+├── package.json
+├── README.md
+├── tsconfig.app.json
+├── tsconfig.json
+├── tsconfig.node.json
+└── vite.config.ts
+```
 
 ## 💻 Tech Stack
 HTML5 & CSS3: Structural vectors and custom styling variables.
