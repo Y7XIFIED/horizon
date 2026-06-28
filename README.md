@@ -32,48 +32,14 @@ Interact dynamically with your mouse or touch to explore the visual effects! Mov
 ## 📂 Project Structure
 ```text
 horizon/
-├── .gitignore
-├── .vercel
-│   ├── project.json
-│   └── README.txt
-├── dist
-│   ├── assets
-│   │   ├── index-BjBeYEfq.css
-│   │   └── index-COi9Rn7S.js
-│   ├── favicon.svg
-│   ├── icons.svg
-│   └── index.html
-├── eslint.config.js
-├── index.html
-├── package-lock.json
-├── package.json
-├── public
-│   ├── favicon.svg
-│   └── icons.svg
-├── README.md
-├── src
-│   ├── App.css
-│   ├── App.tsx
-│   ├── assets
-│   │   ├── hero.png
-│   │   ├── react.svg
-│   │   └── vite.svg
-│   ├── components
-│   │   ├── DeckBrand.tsx
-│   │   ├── HlsVideoBackground.tsx
-│   │   └── Presentation.tsx
-│   ├── index.css
-│   ├── main.tsx
-│   └── slides
-│       ├── AnalyticsSlide.tsx
-│       ├── CoverSlide.tsx
-│       ├── IntroSlide.tsx
-│       ├── OutroSlide.tsx
-│       └── QuoteSlide.tsx
-├── tsconfig.app.json
-├── tsconfig.json
-├── tsconfig.node.json
-└── vite.config.ts
+├── .vercel/
+├── dist/
+│   └── assets/
+├── public/
+└── src/
+    ├── assets/
+    ├── components/
+    └── slides/
 ```
 
 ## 💻 Tech Stack
